@@ -1,0 +1,10 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+h1 {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */
