@@ -1,0 +1,15 @@
+.hero {
+  width: 100%;
+  height: 95%;
+  background-size: 100%;
+  background-position: 0 62;
+  .hero-blurb {
+    text-align: center;
+    /*max-width: 80em;*/
+    padding-top: 250px;
+  }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 100;
+  }
+}

@@ -1,0 +1,10 @@
+.hero {
+  @include span-columns(12);
+  background-image: url("../images/duke-piano.jpg");
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: -90 0;
+
+  p h1 { @include span-columns(12); }
+  h1 {color: white;}
+}

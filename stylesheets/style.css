@@ -4,7 +4,243 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body {
+  margin: 0; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+p > a, li a {
+  color: #349bcc;
+  text-decoration: underline; }
+
 h1 {
-  color: red; }
+  font-family: Poiret One, sans-serif;
+  font-size: 5.61023em;
+  font-weight: 700;
+  color: white;
+  z-index: 10; }
+
+h2 {
+  font-family: Poiret One, sans-serif;
+  font-size: 1.77689em;
+  font-weight: 300;
+  color: black; }
+  h2:after {
+    content: ' ';
+    max-width: initial;
+    display: block;
+    height: 6px;
+    width: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #349bcc; }
+
+h3 {
+  font-family: Poiret One, sans-serif;
+  font-size: 1.333em;
+  font-weight: 300;
+  color: black; }
+
+h4 {
+  font-family: Poiret One, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: black; }
+
+p {
+  font-family: Poiret One, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: black; }
+
+li {
+  font-family: Poiret One, sans-serif;
+  font-size: 1em; }
+  li h3 {
+    font-weight: 400; }
+  li p {
+    font-weight: 100; }
+
+ul {
+  font-family: Poiret One, sans-serif;
+  font-weight: 400;
+  color: black; }
+
+.application-steps ol {
+  list-style: none;
+  counter-reset: my-awesome-counter; }
+  .application-steps ol li {
+    margin-left: 10px;
+    padding: 0px;
+    counter-increment: my-awesome-counter;
+    border-bottom: 1px solid white;
+    line-height: 22px; }
+    .application-steps ol li h3 {
+      margin: 0;
+      display: inline-block; }
+    .application-steps ol li p {
+      margin-top: 5px;
+      padding-left: 0px; }
+  .application-steps ol li:before {
+    content: counter(my-awesome-counter);
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 12px -10px -50px;
+    width: 35px;
+    text-align: center;
+    border-radius: 1in;
+    border: 1.5px solid #349bcc;
+    font-weight: 900;
+    background-color: white; }
+
+.hero-blurb p {
+  color: white; }
+
+section {
+  padding: 25px 0; }
+
+.icon {
+  font-family: Poiret One, sans-serif;
+  font-size: 66px;
+  font-weight: 900; }
+
+.dollar {
+  font-size: 24px;
+  vertical-align: super; }
+
+#icon_1 {
+  margin-top: -9px;
+  height: 78px;
+  width: 82px;
+  padding-top: -90px; }
+
+.hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("../images/duke-piano.jpg");
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: -90 0; }
+  .hero:last-child {
+    margin-right: 0; }
+  .hero p h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .hero p h1:last-child {
+      margin-right: 0; }
+  .hero h1 {
+    color: white; }
+
+@media screen and (min-width: 750px) {
+  .hero {
+    width: 100%;
+    height: 95%;
+    background-size: 100%;
+    background-position: 0 62; }
+    .hero .hero-blurb {
+      text-align: center;
+      /*max-width: 80em;*/
+      padding-top: 250px; }
+    .hero p {
+      font-size: 1.333em;
+      font-weight: 100; }
+
+  .nav-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    position: fixed; }
+    .nav-bar:last-child {
+      margin-right: 0; }
+    .nav-bar::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .nav-bar .logo {
+      width: 100%;
+      text-align: center; }
+      .nav-bar .logo p {
+        color: #349bcc;
+        font-size: 0.56278em;
+        margin-right: 0px;
+        font-weight: 900; }
+
+  nav {
+    display: block; }
+    nav::after {
+      clear: both;
+      content: "";
+      display: table; }
+    nav .nav-list {
+      display: block; }
+    nav button {
+      visibility: hidden; }
+    nav ul {
+      font-family: Poiret One, sans-serif;
+      width: 100%;
+      text-align: center;
+      padding-left: 0px;
+      margin: 0px;
+      padding-bottom: 10px; }
+      nav ul::after {
+        clear: both;
+        content: "";
+        display: table; }
+    nav li {
+      padding: 0px 3px;
+      font-size: 0.56278em;
+      border-right: 2px solid #349bcc;
+      display: inline; }
+      nav li:last-child {
+        border-right: none; }
+      nav li a {
+        color: white;
+        padding-left: 3px;
+        padding-right: 5px;
+        text-decoration: none; }
+      nav li a:hover {
+        color: #349bcc; }
+
+  .nav-bar .logo {
+    width: auto;
+    padding-left: 30px;
+    float: left; }
+    .nav-bar .logo p {
+      color: #349bcc;
+      font-size: 20px;
+      margin-right: 0px; }
+
+  nav {
+    float: right; }
+    nav ul {
+      font-family: Poiret One, sans-serif;
+      font-size: 14px;
+      height: 1em;
+      width: 100%;
+      /* padding: 15px 0px;*/ }
+    nav li {
+      padding: 0px 10px;
+      display: inline;
+      float: left;
+      display: inline;
+      font-size: 1em;
+      font-weight: 100; }
+      nav li:first-child {
+        padding-left: 0px; }
+      nav li:last-child {
+        padding-right: 28px; } }
 
 /*# sourceMappingURL=style.css.map */
