@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: 95%;
+  height: 100%;
   background-size: 100%;
   background-position: 0 62;
   .hero-blurb {
@@ -9,7 +9,24 @@
     padding-top: 250px;
   }
   p {
-    font-size: modular-scale(1);
-    font-weight: 100;
+    font-size: modular-scale(2);
+    font-weight: 300;
   }
+}
+
+.bio-pic {
+  padding-left: 20px;
+  .pic {
+    padding-top: 25px;
+    width: 30%;
+    float: left;
+  }
+  h3 {
+    width: 68.5%;
+    float: right;
+  }
+}
+
+.news-pic {
+
 }

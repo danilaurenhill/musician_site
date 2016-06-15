@@ -8,3 +8,18 @@
   p h1 { @include span-columns(12); }
   h1 {color: white;}
 }
+
+.bio-pic {
+  padding-left: 20px;
+  .pic {
+    padding-top: 25px;
+    padding-left: 4%;
+    /*padding-right: 23%;*/
+    width: 90%;
+  }
+  h3 {
+    width: 98%;
+    float: right;
+  }
+}
+
