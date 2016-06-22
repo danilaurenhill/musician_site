@@ -104,20 +104,17 @@ ul {
 section {
   padding: 25px 0; }
 
-.icon {
-  font-family: Poiret One, sans-serif;
-  font-size: 66px;
-  font-weight: 900; }
-
-.dollar {
-  font-size: 24px;
-  vertical-align: super; }
-
-#icon_1 {
-  margin-top: -9px;
-  height: 78px;
-  width: 82px;
-  padding-top: -90px; }
+.dropdown-content {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  width: 900px;
+  height: 70px;
+  margin-left: -9px;
+  margin-top: 10px; }
+  .dropdown-content::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .hero {
   float: left;
@@ -141,15 +138,27 @@ section {
     color: white; }
 
 .bio-pic {
-  padding-left: 20px; }
+  padding-left: 22px; }
   .bio-pic .pic {
     padding-top: 25px;
     padding-left: 4%;
-    /*padding-right: 23%;*/
     width: 90%; }
   .bio-pic h3 {
     width: 98%;
     float: right; }
+
+.newsart_1 {
+  padding-left: 25px; }
+  .newsart_1 .pic1 {
+    padding-top: 28px;
+    width: 15%;
+    float: left; }
+  .newsart_1 h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: vertical; }
 
 @media screen and (max-width: 750px) {
   .nav-bar {
@@ -293,6 +302,19 @@ section {
     .bio-pic h3 {
       width: 68.5%;
       float: right; }
+
+  .newsart_1 {
+    padding-left: 25px; }
+    .newsart_1 .pic1 {
+      padding-top: 28px;
+      width: 10%;
+      float: left; }
+    .newsart_1 h3 {
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 85%;
+      float: right;
+      text-align: vertical; }
 
   .nav-bar {
     float: left;

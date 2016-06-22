@@ -10,11 +10,10 @@
 }
 
 .bio-pic {
-  padding-left: 20px;
+  padding-left: 22px;
   .pic {
     padding-top: 25px;
     padding-left: 4%;
-    /*padding-right: 23%;*/
     width: 90%;
   }
   h3 {
@@ -23,3 +22,18 @@
   }
 }
 
+.newsart_1 {
+  padding-left: 25px;
+  .pic1 {
+    padding-top: 28px;
+    width: 15%;
+    float: left;
+  }
+  h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: vertical
+  }
+}
