@@ -28,8 +28,9 @@
 }
 .newsart_1 {
   padding-left: 25px;
+  padding-bottom: 20px;
   .pic1 {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 10px;
     width: 15%;
     height: 25%;
@@ -54,8 +55,9 @@
 }
 .newsart_2 {
   padding-left: 25px;
+  padding-bottom: 20px;
   .pic2 {
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 10px;
     width: 15%;
     height: 25%;
@@ -78,7 +80,60 @@
     }
   }
 }
-
+.newsart_3 {
+  padding-left: 25px;
+  padding-bottom: 20px;
+  .pic3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 15%;
+    height: 25%;
+    float: left;
+  }
+  h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: justify;
+  }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 700;
+    color: $green;
+    padding-left: 210px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.newsart_4 {
+  padding-left: 25px;
+  padding-bottom: 20px;
+  .pic4 {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 15%;
+    height: 25%;
+    float: left;
+  }
+  h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: justify;
+  }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 700;
+    color: $green;
+    padding-left: 210px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
 
 
 
