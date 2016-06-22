@@ -1,9 +1,11 @@
 .dropdown-content {
-  display: none;
   @include clearfix;
-  background: rgba(black, 0.6);
-  width: 900px;
-  height: 70px;
-  margin-left: -9px;
-  margin-top: 10px;
+  display: none;
+  h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: justify;
+  }
 }

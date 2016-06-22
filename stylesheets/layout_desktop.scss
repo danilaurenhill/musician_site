@@ -26,12 +26,13 @@
     float: right;
   }
 }
-
 .newsart_1 {
   padding-left: 25px;
   .pic1 {
-    padding-top: 28px;
+    padding-top: 25px;
+    padding-left: 10px;
     width: 15%;
+    height: 25%;
     float: left;
   }
   h3 {
@@ -41,4 +42,53 @@
     float: right;
     text-align: justify;
   }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 700;
+    color: $green;
+    padding-left: 210px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+.newsart_2 {
+  padding-left: 25px;
+  .pic2 {
+    padding-top: 25px;
+    padding-left: 10px;
+    width: 15%;
+    height: 25%;
+    float: left;
+  }
+  h3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 85%;
+    float: right;
+    text-align: justify;
+  }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 700;
+    color: $green;
+    padding-left: 210px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
