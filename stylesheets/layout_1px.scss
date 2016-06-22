@@ -2,9 +2,23 @@
   @include span-columns(12);
   background-image: url("../images/duke-piano.jpg");
   background-repeat: no-repeat;
-  background-size: 750px;
-  background-position: -90 0;
-
+  background-position: center center; 
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-top: 65px;
+  .hero-blurb {
+    @include outer-container;
+    text-align: center;
+    padding: 110px 10%;
+    p {font-weight: 400;}
+  }
+  p {
+    font-size: modular-scale(2);
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  }
   p h1 { @include span-columns(12); }
   h1 {color: white;}
 }

@@ -124,10 +124,30 @@ section {
   width: 100%;
   background-image: url("../images/duke-piano.jpg");
   background-repeat: no-repeat;
-  background-size: 750px;
-  background-position: -90 0; }
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin-top: 65px; }
   .hero:last-child {
     margin-right: 0; }
+  .hero .hero-blurb {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 110px 10%; }
+    .hero .hero-blurb::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .hero .hero-blurb p {
+      font-weight: 400; }
+  .hero p {
+    font-size: 1.77689em;
+    font-weight: 300;
+    width: 100%;
+    text-align: center; }
   .hero p h1 {
     float: left;
     display: block;
@@ -366,13 +386,12 @@ section {
 @media screen and (min-width: 750px) {
   .hero {
     width: 100%;
-    height: 100%;
-    background-size: 100%;
-    background-position: 0 62; }
+    height: 91.5%;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 63px; }
     .hero .hero-blurb {
-      text-align: center;
-      /*max-width: 80em;*/
-      padding-top: 250px; }
+      text-align: center; }
     .hero p {
       font-size: 1.77689em;
       font-weight: 300; }
