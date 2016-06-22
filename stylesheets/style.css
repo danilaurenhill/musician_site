@@ -150,15 +150,16 @@ section {
 .newsart_1 {
   padding-left: 25px; }
   .newsart_1 .pic1 {
-    padding-top: 28px;
-    width: 15%;
-    float: left; }
+    padding-top: 25px;
+    padding-left: 4%;
+    width: 90%;
+    height: 20%; }
   .newsart_1 h3 {
-    padding-left: 25px;
-    padding-right: 25px;
-    width: 85%;
+    width: 98%;
     float: right;
-    text-align: vertical; }
+    padding-left: 8px;
+    padding-right: 30px;
+    text-align: justify; }
 
 @media screen and (max-width: 750px) {
   .nav-bar {
@@ -307,14 +308,14 @@ section {
     padding-left: 25px; }
     .newsart_1 .pic1 {
       padding-top: 28px;
-      width: 10%;
+      width: 15%;
       float: left; }
     .newsart_1 h3 {
       padding-left: 25px;
       padding-right: 25px;
       width: 85%;
       float: right;
-      text-align: vertical; }
+      text-align: justify; }
 
   .nav-bar {
     float: left;
