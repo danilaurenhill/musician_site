@@ -400,11 +400,14 @@ section {
     padding-left: 20px; }
     .bio-pic .pic {
       padding-top: 25px;
+      padding-left: 25px;
       width: 30%;
       float: left; }
     .bio-pic h3 {
       width: 68.5%;
-      float: right; }
+      float: right;
+      text-align: justify;
+      padding-right: 45px; }
 
   .newsart_1 {
     padding-left: 25px;
@@ -426,7 +429,7 @@ section {
       font-size: 1.333em;
       font-weight: 700;
       color: #349bcc;
-      padding-left: 17.5%; }
+      padding-left: 17%; }
       .newsart_1 p:hover {
         text-decoration: none; }
 
@@ -450,7 +453,7 @@ section {
       font-size: 1.333em;
       font-weight: 700;
       color: #349bcc;
-      padding-left: 17.5%; }
+      padding-left: 17%; }
       .newsart_2 p:hover {
         text-decoration: none; }
 
@@ -474,7 +477,7 @@ section {
       font-size: 1.333em;
       font-weight: 700;
       color: #349bcc;
-      padding-left: 17.5%; }
+      padding-left: 17%; }
       .newsart_3 p:hover {
         text-decoration: none; }
 
@@ -498,7 +501,7 @@ section {
       font-size: 1.333em;
       font-weight: 700;
       color: #349bcc;
-      padding-left: 17.5%; }
+      padding-left: 17%; }
       .newsart_4 p:hover {
         text-decoration: none; }
 
