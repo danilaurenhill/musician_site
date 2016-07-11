@@ -1,0 +1,36 @@
+.col-sm-12 {
+  width: 100%;
+}
+.orch {
+  .orch-pic {
+    text-align: center;
+  }
+  h3 {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 24px;
+  }
+}
+.schedule {
+    padding-left: 130px;
+    padding-right: 130px;
+  .sections {
+    .col-xs-4 {
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 6px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+  }
+  .col-xs-4 {
+    text-align: center;
+  }
+}

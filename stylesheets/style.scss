@@ -7,9 +7,11 @@
 
 @media screen and (max-width: 750px) {
   @import "nav_1px";
+  @import "section_1px";
 }
 
 @media screen and (min-width: 750px) {
   @import "layout_desktop";
   @import "nav_desktop";
+  @import "section_desktop";
 }
