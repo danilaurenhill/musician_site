@@ -38,9 +38,21 @@
     height: 25%;
     float: left;
   }
-  h3 {
+  h4 {
+    @include clearfix;
+    margin-top: 20px;
+    font-size: modular-scale(2);
+    font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
+    width: 85%;
+    float: right;
+  }
+  h3 {
+    margin-top: -21px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 40px;
     width: 85%;
     float: right;
     text-align: justify;
@@ -66,9 +78,21 @@
     height: 25%;
     float: left;
   }
-  h3 {
+   h4 {
+    @include clearfix;
+    margin-top: 20px;
+    font-size: modular-scale(2);
+    font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
+    width: 85%;
+    float: right;
+  }
+  h3 {
+    margin-top: -21px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 40px;
     width: 85%;
     float: right;
     text-align: justify;
@@ -94,9 +118,21 @@
     height: 25%;
     float: left;
   }
-  h3 {
+  h4 {
+    @include clearfix;
+    margin-top: 20px;
+    font-size: modular-scale(2);
+    font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
+    width: 85%;
+    float: right;
+  }
+  h3 {
+    margin-top: -21px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 40px;
     width: 85%;
     float: right;
     text-align: justify;
@@ -122,9 +158,21 @@
     height: 25%;
     float: left;
   }
-  h3 {
+  h4 {
+    @include clearfix;
+    margin-top: 20px;
+    font-size: modular-scale(2);
+    font-weight: 700;
     padding-left: 25px;
     padding-right: 25px;
+    width: 85%;
+    float: right;
+  }
+  h3 {
+    margin-top: -21px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 40px;
     width: 85%;
     float: right;
     text-align: justify;
