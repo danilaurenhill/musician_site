@@ -68,6 +68,17 @@ ul {
   font-weight: 400;
   color: black;
 }
+small {
+  font-family: $font;
+  font-size: 20px;
+  &:before {
+    content: ' - ';
+    max-width: initial;
+    display: inline;
+    color: $green;
+    padding-right: 5px;
+  }
+}
 
 .application-steps ol {
   list-style: none;

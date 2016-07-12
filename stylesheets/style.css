@@ -70,6 +70,16 @@ ul {
   font-weight: 400;
   color: black; }
 
+small {
+  font-family: Poiret One, sans-serif;
+  font-size: 20px; }
+  small:before {
+    content: ' - ';
+    max-width: initial;
+    display: inline;
+    color: #349bcc;
+    padding-right: 5px; }
+
 .application-steps ol {
   list-style: none;
   counter-reset: my-awesome-counter; }
@@ -416,8 +426,16 @@ section {
       padding-top: 20px;
       padding-left: 10px;
       width: 15%;
-      height: 25%;
+      height: 27%;
       float: left; }
+    .newsart_1 h3 {
+      margin-top: -21px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 40px;
+      width: 85%;
+      float: right;
+      text-align: justify; }
     .newsart_1 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
@@ -430,14 +448,6 @@ section {
         clear: both;
         content: "";
         display: table; }
-    .newsart_1 h3 {
-      margin-top: -21px;
-      margin-bottom: 15px;
-      padding-left: 25px;
-      padding-right: 40px;
-      width: 85%;
-      float: right;
-      text-align: justify; }
     .newsart_1 p {
       text-align: left;
       font-size: 1.333em;
@@ -454,8 +464,16 @@ section {
       padding-top: 20px;
       padding-left: 10px;
       width: 15%;
-      height: 25%;
+      height: 27%;
       float: left; }
+    .newsart_2 h3 {
+      margin-top: -21px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 40px;
+      width: 85%;
+      float: right;
+      text-align: justify; }
     .newsart_2 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
@@ -468,14 +486,6 @@ section {
         clear: both;
         content: "";
         display: table; }
-    .newsart_2 h3 {
-      margin-top: -21px;
-      margin-bottom: 15px;
-      padding-left: 25px;
-      padding-right: 40px;
-      width: 85%;
-      float: right;
-      text-align: justify; }
     .newsart_2 p {
       text-align: left;
       font-size: 1.333em;
@@ -492,8 +502,16 @@ section {
       padding-top: 20px;
       padding-left: 10px;
       width: 15%;
-      height: 25%;
+      height: 27%;
       float: left; }
+    .newsart_3 h3 {
+      margin-top: -21px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 40px;
+      width: 85%;
+      float: right;
+      text-align: justify; }
     .newsart_3 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
@@ -506,14 +524,6 @@ section {
         clear: both;
         content: "";
         display: table; }
-    .newsart_3 h3 {
-      margin-top: -21px;
-      margin-bottom: 15px;
-      padding-left: 25px;
-      padding-right: 40px;
-      width: 85%;
-      float: right;
-      text-align: justify; }
     .newsart_3 p {
       text-align: left;
       font-size: 1.333em;
@@ -530,8 +540,16 @@ section {
       padding-top: 20px;
       padding-left: 10px;
       width: 15%;
-      height: 25%;
+      height: 27%;
       float: left; }
+    .newsart_4 h3 {
+      margin-top: -21px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 40px;
+      width: 85%;
+      float: right;
+      text-align: justify; }
     .newsart_4 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
@@ -544,14 +562,6 @@ section {
         clear: both;
         content: "";
         display: table; }
-    .newsart_4 h3 {
-      margin-top: -21px;
-      margin-bottom: 15px;
-      padding-left: 25px;
-      padding-right: 40px;
-      width: 85%;
-      float: right;
-      text-align: justify; }
     .newsart_4 p {
       text-align: left;
       font-size: 1.333em;
