@@ -127,6 +127,7 @@ section {
     float: right;
     text-align: justify; }
 
+/*@import "bootstrap";*/
 .hero {
   float: left;
   display: block;
@@ -686,82 +687,13 @@ section {
       nav li:last-child {
         padding-right: 28px; }
 
-  .orch-nav-bar {
+  .schedule {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    z-index: 9;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0px;
-    left: 0px;
-    position: fixed; }
-    .orch-nav-bar:last-child {
-      margin-right: 0; }
-    .orch-nav-bar::after {
-      clear: both;
-      content: "";
-      display: table; }
-    .orch-nav-bar .logo {
-      width: 100%;
-      text-align: center; }
-      .orch-nav-bar .logo p {
-        color: #349bcc;
-        font-size: 0.56278em;
-        margin-right: 0px;
-        font-weight: 900; }
-
-  nav {
-    display: block; }
-    nav::after {
-      clear: both;
-      content: "";
-      display: table; }
-    nav .nav-list {
-      display: block; }
-    nav button {
-      visibility: hidden; }
-    nav ul {
-      font-family: Poiret One, sans-serif;
-      width: 100%;
-      text-align: center;
-      padding-left: 0px;
-      margin: 0px;
-      padding-bottom: 10px; }
-      nav ul::after {
-        clear: both;
-        content: "";
-        display: table; }
-    nav li {
-      padding: 0px 10px;
-      font-size: 0.56278em;
-      border-right: 2px solid #349bcc;
-      display: inline; }
-      nav li:last-child {
-        border-right: none; }
-      nav li a {
-        color: white;
-        padding-left: 3px;
-        padding-right: 5px;
-        font-size: 18px;
-        text-decoration: none; }
-      nav li a:hover {
-        color: #349bcc; }
-
-  /*.orch-navbar is only for the orchestra page(bootstrap)*/
-  .orch-nav-bar .logo {
-    width: auto;
-    padding-left: 30px;
-    float: left;
-    padding-bottom: 6.9px; }
-    .orch-nav-bar .logo p {
-      color: #349bcc;
-      font-size: 20px;
-      margin-right: 0px;
-      padding-top: 18px; }
-
-  .col-sm-12 {
     width: 100%; }
+    .schedule:last-child {
+      margin-right: 0; }
 
   .orch .orch-pic {
     padding-top: 15px;
@@ -774,10 +706,16 @@ section {
   .schedule {
     padding-left: 130px;
     padding-right: 130px; }
-    .schedule .sections .col-xs-4 {
+    .schedule .sections .top-dates {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
       font-size: 24px;
       text-align: center; }
-      .schedule .sections .col-xs-4:after {
+      .schedule .sections .top-dates:last-child {
+        margin-right: 0; }
+      .schedule .sections .top-dates:after {
         content: ' ';
         max-width: initial;
         display: block;
@@ -786,9 +724,69 @@ section {
         margin-left: auto;
         margin-right: auto;
         background-color: #349bcc; }
-    .schedule .col-xs-4 {
+    .schedule .sections .top-location {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      font-size: 24px;
+      text-align: center; }
+      .schedule .sections .top-location:last-child {
+        margin-right: 0; }
+      .schedule .sections .top-location:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #349bcc; }
+    .schedule .sections .top-venue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      font-size: 24px;
+      text-align: center; }
+      .schedule .sections .top-venue:last-child {
+        margin-right: 0; }
+      .schedule .sections .top-venue:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #349bcc; }
+    .schedule .dates {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
       text-align: center;
       font-size: 15px; }
+      .schedule .dates:last-child {
+        margin-right: 0; }
+    .schedule .location {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      text-align: center;
+      font-size: 15px; }
+      .schedule .location:last-child {
+        margin-right: 0; }
+    .schedule .venue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      text-align: center;
+      font-size: 15px; }
+      .schedule .venue:last-child {
+        margin-right: 0; }
 
   .ace {
     text-align: center;

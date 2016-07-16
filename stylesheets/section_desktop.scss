@@ -1,5 +1,5 @@
-.col-sm-12 {
-  width: 100%;
+.schedule {
+ @include span-columns(12);
 }
 .orch {
   .orch-pic {
@@ -16,7 +16,38 @@
     padding-left: 130px;
     padding-right: 130px;
   .sections {
-    .col-xs-4 {
+    .top-dates {
+      @include span-columns(4 of 12);
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+    .top-location {
+      @include span-columns(4 of 12);
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+    .top-venue {
+      @include span-columns(4 of 12);
       font-size: 24px;
       text-align: center;
       &:after {
@@ -31,7 +62,18 @@
       }
     }
   }
-  .col-xs-4 {
+  .dates {
+    @include span-columns(4 of 12);
+    text-align: center;
+    font-size: 15px;
+  }
+  .location {
+    @include span-columns(4 of 12);
+    text-align: center;
+    font-size: 15px;
+  }
+  .venue {
+    @include span-columns(4 of 12);
     text-align: center;
     font-size: 15px;
   }
