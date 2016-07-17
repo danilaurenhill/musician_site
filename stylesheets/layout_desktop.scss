@@ -29,6 +29,7 @@
   }
 }
 .newsart_1 {
+  text-align: left;
   padding-left: 25px;
   padding-bottom: 20px;
   .pic1 {
@@ -48,6 +49,7 @@
     text-align: justify;
   }
   h4 {
+    text-align: left;
     @include clearfix;
     margin-top: 20px;
     font-size: modular-scale(2);
@@ -69,6 +71,7 @@
   }
 }
 .newsart_2 {
+  text-align: left;
   padding-left: 25px;
   padding-bottom: 20px;
   .pic2 {
@@ -109,6 +112,7 @@
   }
 }
 .newsart_3 {
+  text-align: left;
   padding-left: 25px;
   padding-bottom: 20px;
   .pic3 {
@@ -149,6 +153,7 @@
   }
 }
 .newsart_4 {
+  text-align: left;
   padding-left: 25px;
   padding-bottom: 20px;
   .pic4 {
