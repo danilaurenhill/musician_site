@@ -891,6 +891,8 @@ section {
       font-size: 15px; }
       .schedule .location:last-child {
         margin-right: 0; }
+      .schedule .location h3 {
+        padding-top: 4px; }
     .schedule .venue {
       float: left;
       display: block;
@@ -900,6 +902,8 @@ section {
       font-size: 15px; }
       .schedule .venue:last-child {
         margin-right: 0; }
+      .schedule .venue h3 {
+        padding-bottom: 4px; }
 
   .ace {
     text-align: center;
