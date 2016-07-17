@@ -1,0 +1,117 @@
+.schedule {
+ @include span-columns(12);
+}
+.orch {
+  .orch-pic {
+    padding-top: 15px;
+    text-align: center;
+  }
+  h3 {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 24px;
+  }
+}
+.schedule {
+    padding-left: 25px;
+    padding-right: 25px;
+  .sections {
+    .top-dates {
+      @include span-columns(4 of 12);
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+    .top-location {
+      @include span-columns(4 of 12);
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+    .top-venue {
+      @include span-columns(4 of 12);
+      font-size: 24px;
+      text-align: center;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+  }
+  .dates {
+    @include span-columns(4 of 12);
+    text-align: center;
+    font-size: 15px;
+    h3 {
+      padding-top: 2px;
+      width: 119px;
+      margin-right: 5%;
+      margin-left: 8%;
+      height: 75px;
+    }
+  }
+  .location {
+    @include span-columns(4 of 12);
+    text-align: center;
+    font-size: 15px;
+    h3 {
+      padding-top: 4px;
+      width: 119px;
+      margin-left: 10px;
+      height: 75px;
+    }
+  }
+  .venue {
+    @include span-columns(4 of 12);
+    text-align: center;
+    font-size: 15px;
+    h3 {
+      padding-bottom: 4px;
+      width: 119px;
+      margin-left: 10px;
+      padding-right: 10px;
+      height: 75px;
+    }
+  }
+}
+.ace {
+  text-align: justify;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  h3 {
+    text-align: justify;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  img {
+    padding-top: 100px;
+  }
+  
+}
