@@ -271,6 +271,30 @@ section {
     .newsart_4 p:hover {
       text-decoration: none; }
 
+.link_1 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_1 .pic1 {
+    width: 300px; }
+
+.link_2 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_2 .pic2 {
+    width: 300px; }
+
+.link_3 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_3 .pic3 {
+    width: 300px; }
+
+.link_4 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_4 .pic4 {
+    width: 300px; }
+
 @media screen and (max-width: 750px) {
   .nav-bar {
     float: left;
