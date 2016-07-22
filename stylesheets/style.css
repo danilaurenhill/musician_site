@@ -16,14 +16,14 @@ p > a, li a {
   text-decoration: underline; }
 
 h1 {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 5.61023em;
   font-weight: 700;
   color: white;
   z-index: 10; }
 
 h2 {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 32px;
   font-weight: 300;
   color: black;
@@ -40,25 +40,25 @@ h2 {
     background-color: #349bcc; }
 
 h3 {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 1.333em;
   font-weight: 300;
   color: black; }
 
 h4 {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 1em;
   font-weight: 300;
   color: black; }
 
 p {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 1em;
   font-weight: 100;
   color: black; }
 
 li {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 1em; }
   li h3 {
     font-weight: 400; }
@@ -66,12 +66,12 @@ li {
     font-weight: 100; }
 
 ul {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-weight: 400;
   color: black; }
 
 small {
-  font-family: Poiret One, sans-serif;
+  font-family: American Typewriter;
   font-size: 20px; }
   small:before {
     content: ' - ';
@@ -602,7 +602,7 @@ section {
         margin-right: 0; }
       .schedule .location h3 {
         padding-top: 4px;
-        width: 119px;
+        /*width: 119px;*/
         margin-left: 10px;
         height: 75px; }
     .schedule .venue {
@@ -616,7 +616,6 @@ section {
         margin-right: 0; }
       .schedule .venue h3 {
         padding-bottom: 4px;
-        width: 119px;
         margin-left: 10px;
         padding-right: 10px;
         height: 75px; }
@@ -650,14 +649,15 @@ section {
     padding-left: 20px; }
     .bio-pic .pic {
       padding-top: 25px;
-      padding-left: 25px;
+      padding-left: 45px;
       width: 30%;
+      height: 350px;
       float: left; }
     .bio-pic h3 {
       width: 68.5%;
       float: right;
       text-align: justify;
-      padding-right: 45px; }
+      padding-right: 55px; }
 
   .newsart_1 {
     text-align: left;
@@ -681,7 +681,7 @@ section {
       text-align: left;
       margin-top: 20px;
       font-size: 1.77689em;
-      font-weight: 700;
+      font-weight: 400;
       padding-left: 25px;
       padding-right: 25px;
       width: 85%;
@@ -693,7 +693,7 @@ section {
     .newsart_1 p {
       text-align: left;
       font-size: 1.333em;
-      font-weight: 700;
+      font-weight: 400;
       color: #349bcc;
       padding-left: 17%; }
       .newsart_1 p:hover {
@@ -720,7 +720,7 @@ section {
     .newsart_2 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
-      font-weight: 700;
+      font-weight: 400;
       padding-left: 25px;
       padding-right: 25px;
       width: 85%;
@@ -732,7 +732,7 @@ section {
     .newsart_2 p {
       text-align: left;
       font-size: 1.333em;
-      font-weight: 700;
+      font-weight: 400;
       color: #349bcc;
       padding-left: 17%; }
       .newsart_2 p:hover {
@@ -759,7 +759,7 @@ section {
     .newsart_3 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
-      font-weight: 700;
+      font-weight: 400;
       padding-left: 25px;
       padding-right: 25px;
       width: 85%;
@@ -771,7 +771,7 @@ section {
     .newsart_3 p {
       text-align: left;
       font-size: 1.333em;
-      font-weight: 700;
+      font-weight: 400;
       color: #349bcc;
       padding-left: 17%; }
       .newsart_3 p:hover {
@@ -798,7 +798,7 @@ section {
     .newsart_4 h4 {
       margin-top: 20px;
       font-size: 1.77689em;
-      font-weight: 700;
+      font-weight: 400;
       padding-left: 25px;
       padding-right: 25px;
       width: 85%;
@@ -810,7 +810,7 @@ section {
     .newsart_4 p {
       text-align: left;
       font-size: 1.333em;
-      font-weight: 700;
+      font-weight: 400;
       color: #349bcc;
       padding-left: 17%; }
       .newsart_4 p:hover {
@@ -876,7 +876,7 @@ section {
     nav button {
       visibility: hidden; }
     nav ul {
-      font-family: Poiret One, sans-serif;
+      font-family: American Typewriter;
       width: 100%;
       text-align: center;
       padding-left: 0px;
@@ -914,7 +914,7 @@ section {
   nav {
     float: right; }
     nav ul {
-      font-family: Poiret One, sans-serif;
+      font-family: American Typewriter;
       font-size: 14px;
       height: 1em;
       width: 100%;
