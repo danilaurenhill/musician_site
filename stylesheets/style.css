@@ -16,14 +16,14 @@ p > a, li a {
   text-decoration: underline; }
 
 h1 {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 5.61023em;
   font-weight: 700;
   color: white;
   z-index: 10; }
 
 h2 {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 32px;
   font-weight: 300;
   color: black;
@@ -40,25 +40,25 @@ h2 {
     background-color: #349bcc; }
 
 h3 {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 1.333em;
   font-weight: 300;
   color: black; }
 
 h4 {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 1em;
   font-weight: 300;
   color: black; }
 
 p {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 1em;
   font-weight: 100;
   color: black; }
 
 li {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 1em; }
   li h3 {
     font-weight: 400; }
@@ -66,12 +66,12 @@ li {
     font-weight: 100; }
 
 ul {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-weight: 400;
   color: black; }
 
 small {
-  font-family: American Typewriter;
+  font-family: Josefin Sans;
   font-size: 20px; }
   small:before {
     content: ' - ';
@@ -127,7 +127,6 @@ section {
     float: right;
     text-align: justify; }
 
-/*@import "bootstrap";*/
 .hero {
   float: left;
   display: block;
@@ -514,6 +513,8 @@ section {
   .orch .orch-pic {
     padding-top: 15px;
     text-align: center; }
+    .orch .orch-pic img {
+      width: 50%; }
   .orch h3 {
     padding-left: 15%;
     padding-right: 15%;
@@ -638,7 +639,7 @@ section {
     height: 91.5%;
     background-size: cover;
     background-position: center center;
-    margin-top: 63px; }
+    margin-top: 60px; }
     .hero .hero-blurb {
       text-align: center; }
     .hero p {
@@ -649,7 +650,7 @@ section {
     padding-left: 20px; }
     .bio-pic .pic {
       padding-top: 25px;
-      padding-left: 45px;
+      padding-left: 25px;
       width: 30%;
       height: 350px;
       float: left; }
@@ -657,7 +658,7 @@ section {
       width: 68.5%;
       float: right;
       text-align: justify;
-      padding-right: 55px; }
+      padding-right: 45px; }
 
   .newsart_1 {
     text-align: left;
@@ -840,6 +841,11 @@ section {
     .link_4 .pic4 {
       width: 350px; }
 
+  .contact {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px; }
+
   .nav-bar {
     float: left;
     display: block;
@@ -876,7 +882,7 @@ section {
     nav button {
       visibility: hidden; }
     nav ul {
-      font-family: American Typewriter;
+      font-family: Josefin Sans;
       width: 100%;
       text-align: center;
       padding-left: 0px;
@@ -914,7 +920,7 @@ section {
   nav {
     float: right; }
     nav ul {
-      font-family: American Typewriter;
+      font-family: Josefin Sans;
       font-size: 14px;
       height: 1em;
       width: 100%;
