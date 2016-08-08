@@ -19,7 +19,7 @@
     padding-top: 25px;
     padding-left: 25px;
     width: 30%;
-    height: 350px;
+    height: 400px;
     float: left;
   }
   h3 {
@@ -27,6 +27,16 @@
     float: right;
     text-align: justify;
     padding-right: 45px;
+  }
+}
+.paul-section {
+  text-align: center;
+  padding-top: 250px;
+  .pic {
+    text-align: center;
+    padding-top: 25px;
+    width: 13%;
+    height: 250px;
   }
 }
 .newsart_1 {
@@ -227,11 +237,18 @@
   padding-bottom: 40px;
   padding-top: 30px;
 }
-
-
-
-
-
+.footer {
+  padding-left: 32%;
+  h3 {
+    text-align: center;
+    font-size: 14px;
+    width: 500px;
+  }
+}
+.coming-soon {
+  text-align: center;
+  padding-top: 40px;
+}
 
 
 
