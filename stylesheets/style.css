@@ -175,8 +175,27 @@ section {
     padding-left: 4%;
     width: 90%; }
   .bio-pic h3 {
+    text-align: justify;
     width: 98%;
-    float: right; }
+    float: right;
+    padding-right: 30px; }
+  .bio-pic h4 {
+    text-align: justify;
+    width: 98%;
+    font-family: Josefin Sans;
+    font-size: 1.333em;
+    font-weight: 300;
+    color: black;
+    padding-right: 30px; }
+
+.paul-section {
+  text-align: center;
+  padding-top: 50px; }
+  .paul-section .pic {
+    text-align: center;
+    padding-top: 25px;
+    width: 35%;
+    height: 250px; }
 
 .newsart_1 {
   text-align: center;
@@ -406,101 +425,133 @@ section {
         float: left;
         padding-left: 10px;
         margin-top: 8px; }
-    .nav-bar nav {
-      /* active state, i.e. menu open */ }
-      .nav-bar nav button {
-        float: right; }
-      .nav-bar nav .nav-list {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
+    .nav-bar nav button {
+      float: right; }
+    .nav-bar nav .nav-list {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      display: none; }
+      .nav-bar nav .nav-list:last-child {
+        margin-right: 0; }
+      .nav-bar nav .nav-list ul {
+        z-index: 9;
+        padding-left: 0;
+        padding-top: 10px;
+        list-style-type: none;
+        color: black;
         width: 100%;
-        display: none; }
-        .nav-bar nav .nav-list:last-child {
-          margin-right: 0; }
-        .nav-bar nav .nav-list ul {
-          z-index: 9;
-          padding-left: 0;
-          padding-top: 10px;
-          list-style-type: none;
-          color: black;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.7);
-          margin-bottom: 0px;
-          padding-bottom: 2px;
-          position: fixed;
-          margin-top: 28px; }
-        .nav-bar nav .nav-list li {
-          margin-top: 5px;
-          margin-bottom: 5px;
-          color: #000000;
-          text-align: center;
-          padding-bottom: 5px;
-          border-bottom: 1px solid #349bcc; }
-          .nav-bar nav .nav-list li:last-child {
-            border-bottom: none;
-            padding-bottom: 1px; }
-        .nav-bar nav .nav-list a {
-          color: white;
-          text-decoration: none; }
-        .nav-bar nav .nav-list a:hover {
-          color: #349bcc; }
-      .nav-bar nav .c-hamburger {
-        top: 0px;
-        right: 0px;
-        display: block;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-bottom: 0px;
+        padding-bottom: 2px;
         position: fixed;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        width: 52px;
-        height: 65px;
-        z-index: 15;
-        font-size: 0;
-        text-indent: -9999px;
-        appearance: none;
-        box-shadow: none;
-        border-radius: none;
-        border: none;
-        cursor: pointer;
-        transition: background 0.3s; }
-      .nav-bar nav .c-hamburger:focus {
-        outline: none; }
-      .nav-bar nav .c-hamburger span {
-        display: block;
-        position: absolute;
-        top: 44px;
-        left: 18px;
-        right: 18px;
-        height: 5px;
-        width: 35px;
-        margin-left: -9.5px;
-        margin-top: -16.8px;
-        background: white; }
-      .nav-bar nav .c-hamburger span::before,
-      .nav-bar nav .c-hamburger span::after {
-        position: absolute;
-        display: block;
-        left: 0;
-        margin-top: 6px;
-        margin-bottom: 6px;
-        margin-left: 0px;
-        height: 5px;
-        width: 35px;
-        background-color: #fff;
-        content: ""; }
-      .nav-bar nav .c-hamburger span::before {
-        top: -20px; }
-      .nav-bar nav .c-hamburger span::after {
-        bottom: -20px; }
-      .nav-bar nav .c-hamburger--rot {
-        background-color: #349bcc; }
-      .nav-bar nav .c-hamburger--rot span {
-        transition: transform 0.3s; }
-      .nav-bar nav .c-hamburger--rot.is-active {
-        background-color: #30856d; }
-      .nav-bar nav .c-hamburger--rot.is-active span {
-        transform: rotate(90deg); }
+        margin-top: 28px; }
+      .nav-bar nav .nav-list li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #000000;
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #349bcc; }
+        .nav-bar nav .nav-list li:last-child {
+          border-bottom: none;
+          padding-bottom: 1px; }
+      .nav-bar nav .nav-list a {
+        color: white;
+        text-decoration: none; }
+      .nav-bar nav .nav-list a:hover {
+        color: #349bcc; }
+
+  /*
+  .hamburger {
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:0px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index: 10000000000000;
+  } */
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 100em;
+    left: 1em;
+    height: 26px;
+    width: 26px;
+    cursor: pointer; }
+
+  .hamburgler-icon,
+  .hamburgler-icon:before,
+  .hamburgler-icon:after {
+    content: '';
+    position: absolute;
+    border-radius: 1em;
+    height: 2px;
+    width: 26px;
+    background: black;
+    transition: all 0.2s ease; }
+
+  .hamburgler-icon {
+    top: 0.75em; }
+
+  .hamburgler-icon:before {
+    top: -0.55em; }
+
+  .hamburgler-icon:after {
+    top: 0.55em; }
+
+  .hamburgler-active .hamburgler-icon {
+    background: transparent;
+    transform: rotate(-135deg); }
+
+  .hamburgler-active .hamburgler-icon:before,
+  .hamburgler-active .hamburgler-icon:after {
+    top: 0; }
+
+  .hamburgler-active .hamburgler-icon:before {
+    transform: rotate(90deg); }
+
+  .hamburgler-active .hamburgler-icon,
+  .hamburgler-active .hamburgler-icon:before,
+  .hamburgler-active .hamburgler-icon:after {
+    background: white; }
+
+  .hamburgler-menu {
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center; }
+
+  .hamburgler-active .hamburgler-menu {
+    opacity: 1;
+    pointer-events: initial; }
+
+  .hamburgler-menu-list {
+    display: block;
+    transition: all 0.4s ease;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2); }
+
+  .hamburgler-active .hamburgler-menu-list {
+    transform: translate(-50%, -50%) scale(1); }
 
   .schedule {
     float: left;
@@ -650,7 +701,9 @@ section {
     padding-left: 20px; }
     .bio-pic .pic {
       padding-top: 25px;
+      padding-bottom: 25px;
       padding-left: 25px;
+      padding-right: 25px;
       width: 30%;
       height: 400px;
       float: left; }
@@ -658,11 +711,21 @@ section {
       width: 68.5%;
       float: right;
       text-align: justify;
-      padding-right: 45px; }
+      padding-right: 45px;
+      margin-left: -15px; }
+    .bio-pic h4 {
+      width: 100%;
+      text-align: justify;
+      padding-right: 45px;
+      padding-left: 25px;
+      font-family: Josefin Sans;
+      font-size: 1.333em;
+      font-weight: 300;
+      color: black; }
 
   .paul-section {
     text-align: center;
-    padding-top: 250px; }
+    padding-top: 50px; }
     .paul-section .pic {
       text-align: center;
       padding-top: 25px;

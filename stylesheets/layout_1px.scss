@@ -30,8 +30,29 @@
     width: 90%;
   }
   h3 {
+    text-align: justify;
     width: 98%;
     float: right;
+    padding-right: 30px;
+  }
+  h4 {
+    text-align: justify;
+    width: 98%;
+    font-family: $font;
+    font-size: modular-scale(1);
+    font-weight: 300;
+    color: black;
+    padding-right: 30px;
+  }
+}
+.paul-section {
+  text-align: center;
+  padding-top: 50px;
+  .pic {
+    text-align: center;
+    padding-top: 25px;
+    width: 35%;
+    height: 250px;
   }
 }
 .newsart_1 {

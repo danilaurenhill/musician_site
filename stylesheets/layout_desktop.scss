@@ -17,7 +17,9 @@
   padding-left: 20px;
   .pic {
     padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 25px;
+    padding-right: 25px;
     width: 30%;
     height: 400px;
     float: left;
@@ -27,11 +29,22 @@
     float: right;
     text-align: justify;
     padding-right: 45px;
+    margin-left: -15px;
+  }
+  h4 {
+    width: 100%;
+    text-align: justify;
+    padding-right: 45px;
+    padding-left: 25px;
+    font-family: $font;
+    font-size: modular-scale(1);
+    font-weight: 300;
+    color: black;
   }
 }
 .paul-section {
   text-align: center;
-  padding-top: 250px;
+  padding-top: 50px;
   .pic {
     text-align: center;
     padding-top: 25px;
