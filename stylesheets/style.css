@@ -178,15 +178,17 @@ section {
     text-align: justify;
     width: 98%;
     float: right;
+    padding-left: 1px;
     padding-right: 30px; }
   .bio-pic h4 {
     text-align: justify;
+    padding-left: 10px;
     width: 98%;
     font-family: Josefin Sans;
     font-size: 1.333em;
     font-weight: 300;
     color: black;
-    padding-right: 30px; }
+    padding-right: 20px; }
 
 .paul-section {
   text-align: center;
@@ -396,6 +398,11 @@ section {
   padding-bottom: 40px; }
   .link_4 .pic4 {
     width: 300px; }
+
+.footer h3 {
+  text-align: center;
+  font-size: 14px;
+  width: 100%; }
 
 @media screen and (max-width: 750px) {
   .nav-bar {
