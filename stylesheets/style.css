@@ -132,7 +132,7 @@ section {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: url("../images/duke-piano.jpg");
+  background-image: url("../images/duke-main.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
@@ -398,6 +398,11 @@ section {
   padding-bottom: 40px; }
   .link_4 .pic4 {
     width: 300px; }
+
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 30px; }
 
 .footer h3 {
   text-align: center;
@@ -700,6 +705,8 @@ section {
     margin-top: 60px; }
     .hero .hero-blurb {
       text-align: center; }
+      .hero .hero-blurb h1 {
+        padding-top: 90px; }
     .hero p {
       font-size: 1.77689em;
       font-weight: 300; }

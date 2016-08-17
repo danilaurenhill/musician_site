@@ -1,6 +1,6 @@
 .hero {
   @include span-columns(12);
-  background-image: url("../images/duke-piano.jpg");
+  background-image: url("../images/duke-main.jpg");
   background-repeat: no-repeat;
   background-position: center center; 
   width: 100%;
@@ -277,6 +277,11 @@
   .pic4 {
     width: 300px;
   }
+}
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
 }
 .footer {
   h3 {
