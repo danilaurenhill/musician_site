@@ -900,7 +900,7 @@ section {
     text-align: center;
     padding-bottom: 40px; }
     .link_1 .pic1 {
-      width: 350px; }
+      width: 200px; }
     .link_1 h3:hover {
       color: #349bcc; }
 
@@ -908,7 +908,8 @@ section {
     text-align: center;
     padding-bottom: 40px; }
     .link_2 .pic2 {
-      width: 350px; }
+      width: 200px;
+      height: 150px; }
     .link_2 h3:hover {
       color: #349bcc; }
 
@@ -916,7 +917,7 @@ section {
     text-align: center;
     padding-bottom: 40px; }
     .link_3 .pic3 {
-      width: 350px; }
+      width: 200px; }
     .link_3 h3:hover {
       color: #349bcc; }
 
@@ -924,7 +925,8 @@ section {
     text-align: center;
     padding-bottom: 40px; }
     .link_4 .pic4 {
-      width: 350px; }
+      width: 200px;
+      height: 170px; }
     .link_4 h3:hover {
       color: #349bcc; }
 
