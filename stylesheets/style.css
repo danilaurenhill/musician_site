@@ -114,6 +114,9 @@ small {
 section {
   padding: 25px 0; }
 
+.quotes p {
+  padding-left: 456px; }
+
 .dropdown-content {
   display: none; }
   .dropdown-content::after {
@@ -949,6 +952,9 @@ section {
       text-align: center;
       font-size: 14px;
       width: 500px; }
+
+  .quotes p {
+    padding-left: 456px; }
 
   .coming-soon {
     text-align: center;
