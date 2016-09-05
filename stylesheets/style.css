@@ -712,6 +712,9 @@ section {
       .hero .hero-blurb h1 {
         padding-top: 90px; }
     .hero p {
+      text-align: center;
+      width: 1000px;
+      margin-left: -92px;
       font-size: 1.77689em;
       font-weight: 300; }
 
