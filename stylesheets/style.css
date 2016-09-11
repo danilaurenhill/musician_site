@@ -1347,7 +1347,12 @@ section {
       width: 500px; }
 
   .quotes p {
-    padding-left: 456px; }
+    padding-top: 40px;
+    padding-bottom: 65px;
+    padding-left: 17px;
+    color: #349bcc;
+    font-size: 25px;
+    font-weight: 900; }
 
   .coming-soon {
     text-align: center;
