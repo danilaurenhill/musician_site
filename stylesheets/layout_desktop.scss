@@ -679,6 +679,11 @@
   text-align: center;
   padding-bottom: 40px;
   padding-top: 30px;
+  a {
+    color: $green;
+    font-family: $font;
+    font-size: 20px;
+  }
 }
 .footer {
   padding-left: 32%;
