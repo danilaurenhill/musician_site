@@ -34,19 +34,40 @@
     width: 68.5%;
     float: right;
     text-align: justify;
-    padding-right: 45px;
     margin-left: -15px;
+    margin-right: 20px;
+    padding-right: 45px;
+    padding-left: 25px;
   }
-  h4 {
+  h2 {
+    @include clearfix;
     width: 100%;
+    float:left;
     text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
     padding-right: 45px;
     padding-left: 25px;
     font-family: $font;
     font-size: modular-scale(1);
     font-weight: 300;
     color: black;
+    &:after {
+      content: ' ';
+      background-color: white;
+    }
   }
+  h4 {
+    width: 100%;
+    text-align: justify;
+    /*padding-right: 45px;
+    padding-left: 25px;*/
+    font-family: $font;
+    font-size: modular-scale(1);
+    font-weight: 300;
+    color: black;
+  }
+
 }
 .paul-section {
   text-align: center;
