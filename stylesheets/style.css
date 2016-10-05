@@ -725,15 +725,16 @@ section {
       padding-bottom: 25px;
       padding-left: 25px;
       padding-right: 25px;
-      width: 30%;
+      width: 25%;
       height: 400px;
       float: left; }
     .bio-pic h3 {
-      width: 68.5%;
+      width: 74.6%;
       float: right;
       text-align: justify;
+      padding-top: 5px;
       margin-left: -15px;
-      margin-right: 20px;
+      margin-right: 3px;
       padding-right: 45px;
       padding-left: 25px; }
     .bio-pic h2 {
