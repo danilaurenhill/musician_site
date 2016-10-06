@@ -382,26 +382,119 @@ section {
 .link_1 {
   text-align: center;
   padding-bottom: 40px; }
-  .link_1 .pic1 {
-    width: 300px; }
+  .link_1 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_1 h3:hover {
+    color: #349bcc; }
 
 .link_2 {
   text-align: center;
   padding-bottom: 40px; }
-  .link_2 .pic2 {
-    width: 300px; }
+  .link_2 .pic4 {
+    width: 200px;
+    height: 190px; }
+  .link_2 h3:hover {
+    color: #349bcc; }
 
 .link_3 {
   text-align: center;
   padding-bottom: 40px; }
-  .link_3 .pic3 {
-    width: 300px; }
+  .link_3 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_3 h3:hover {
+    color: #349bcc; }
 
 .link_4 {
   text-align: center;
   padding-bottom: 40px; }
   .link_4 .pic4 {
-    width: 300px; }
+    width: 200px;
+    height: 200px; }
+  .link_4 h3:hover {
+    color: #349bcc; }
+
+.link_5 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_5 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_5 h3:hover {
+    color: #349bcc; }
+
+.link_6 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_6 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_6 h3:hover {
+    color: #349bcc; }
+
+.link_7 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_7 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_7 h3:hover {
+    color: #349bcc; }
+
+.link_8 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_8 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_8 h3:hover {
+    color: #349bcc; }
+
+.link_9 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_9 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_9 h3:hover {
+    color: #349bcc; }
+
+.link_10 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_10 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_10 h3:hover {
+    color: #349bcc; }
+
+.link_11 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_11 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_11 h3:hover {
+    color: #349bcc; }
+
+.link_12 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_12 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_12 h3:hover {
+    color: #349bcc; }
+
+.link_13 {
+  text-align: center;
+  padding-bottom: 40px; }
+  .link_13 .pic4 {
+    width: 200px;
+    height: 200px; }
+  .link_13 h3:hover {
+    color: #349bcc; }
 
 .contact {
   text-align: center;
@@ -1323,37 +1416,208 @@ section {
         text-decoration: none; }
 
   .link_1 {
-    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 50px;
+    width: 30%;
     padding-bottom: 40px; }
-    .link_1 .pic1 {
-      width: 200px; }
+    .link_1 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_1 h3 {
+      width: 340px;
+      padding-left: 110px; }
     .link_1 h3:hover {
       color: #349bcc; }
 
   .link_2 {
-    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 65px;
+    width: 30%;
     padding-bottom: 40px; }
-    .link_2 .pic2 {
-      width: 200px;
-      height: 150px; }
+    .link_2 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_2 h3 {
+      width: 300px;
+      padding-left: 110px; }
     .link_2 h3:hover {
       color: #349bcc; }
 
   .link_3 {
-    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 80px;
+    width: 30%;
     padding-bottom: 40px; }
     .link_3 .pic3 {
-      width: 200px; }
+      width: 250px;
+      height: 250px; }
+    .link_3 h3 {
+      width: 300px;
+      padding-left: 110px; }
     .link_3 h3:hover {
       color: #349bcc; }
 
   .link_4 {
-    text-align: center;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 50px;
+    width: 30%;
     padding-bottom: 40px; }
-    .link_4 .pic4 {
-      width: 200px;
-      height: 170px; }
+    .link_4 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_4 h3 {
+      width: 340px;
+      padding-left: 110px; }
     .link_4 h3:hover {
+      color: #349bcc; }
+
+  .link_5 {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 65px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_5 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_5 h3 {
+      width: 300px;
+      padding-left: 110px; }
+    .link_5 h3:hover {
+      color: #349bcc; }
+
+  .link_6 {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 80px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_6 .pic3 {
+      width: 250px;
+      height: 250px; }
+    .link_6 h3 {
+      width: 300px;
+      padding-left: 110px; }
+    .link_6 h3:hover {
+      color: #349bcc; }
+
+  .link_7 {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 50px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_7 .pic3 {
+      width: 250px; }
+    .link_7 h3 {
+      width: 310px;
+      padding-left: 120px; }
+    .link_7 h3:hover {
+      color: #349bcc; }
+
+  .link_8 {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 65px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_8 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_8 h3 {
+      width: 330px;
+      padding-left: 95px; }
+    .link_8 h3:hover {
+      color: #349bcc; }
+
+  .link_9 {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 80px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_9 .pic3 {
+      width: 250px;
+      height: 250px; }
+    .link_9 h3 {
+      width: 310px;
+      padding-left: 115px; }
+    .link_9 h3:hover {
+      color: #349bcc; }
+
+  .link_10 {
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: 50px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_10 .pic3 {
+      width: 250px; }
+    .link_10 h3 {
+      width: 310px;
+      padding-left: 120px; }
+    .link_10 h3:hover {
+      color: #349bcc; }
+
+  .link_11 {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 65px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_11 .pic3 {
+      width: 250px;
+      height: 160px; }
+    .link_11 h3 {
+      width: 330px;
+      padding-left: 95px; }
+    .link_11 h3:hover {
+      color: #349bcc; }
+
+  .link_12 {
+    position: relative;
+    display: inline-block;
+    top: 80px;
+    left: 80px;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_12 .pic3 {
+      width: 250px;
+      height: 250px; }
+    .link_12 h3 {
+      width: 310px;
+      padding-left: 115px; }
+    .link_12 h3:hover {
+      color: #349bcc; }
+
+  .link_13 {
+    position: relative;
+    top: 80px;
+    left: 35%;
+    width: 30%;
+    padding-bottom: 40px; }
+    .link_13 .pic3 {
+      width: 250px;
+      height: 250px; }
+    .link_13 h3 {
+      width: 310px;
+      padding-left: 115px; }
+    .link_13 h3:hover {
       color: #349bcc; }
 
   .contact {
@@ -1373,7 +1637,7 @@ section {
       width: 500px; }
 
   .quotes p {
-    padding-top: 40px;
+    padding-top: 150px;
     padding-bottom: 65px;
     padding-left: 17px;
     color: #349bcc;
