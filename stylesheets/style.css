@@ -16,14 +16,14 @@ p > a, li a {
   text-decoration: underline; }
 
 h1 {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 5.61023em;
   font-weight: 700;
   color: white;
   z-index: 10; }
 
 h2 {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 32px;
   font-weight: 300;
   color: black;
@@ -40,25 +40,25 @@ h2 {
     background-color: #349bcc; }
 
 h3 {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 1.333em;
   font-weight: 300;
   color: black; }
 
 h4 {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 1em;
   font-weight: 300;
   color: black; }
 
 p {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 1em;
   font-weight: 100;
   color: black; }
 
 li {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 1em; }
   li h3 {
     font-weight: 400; }
@@ -66,12 +66,12 @@ li {
     font-weight: 100; }
 
 ul {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-weight: 400;
   color: black; }
 
 small {
-  font-family: Josefin Sans;
+  font-family: Garamond, "Times New Roman", Times, serif;
   font-size: 20px; }
   small:before {
     content: ' - ';
@@ -188,7 +188,7 @@ section {
     text-align: justify;
     padding-left: 10px;
     width: 98%;
-    font-family: Josefin Sans;
+    font-family: Garamond, "Times New Roman", Times, serif;
     font-size: 1.333em;
     font-weight: 300;
     color: black;
@@ -838,7 +838,7 @@ section {
       margin-right: 20px;
       padding-right: 45px;
       padding-left: 25px;
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       font-size: 1.333em;
       font-weight: 300;
       color: black; }
@@ -854,7 +854,7 @@ section {
       text-align: justify;
       /*padding-right: 45px;
       padding-left: 25px;*/
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       font-size: 1.333em;
       font-weight: 300;
       color: black; }
@@ -871,13 +871,13 @@ section {
       width: 20.5%;
       height: 360px; }
     .paul-section h3 {
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       font-size: 1em;
       padding-left: 12.3%; }
 
   .further_reading {
     position: relative;
-    padding-top: 1650px;
+    padding-top: 1800px;
     padding-left: 45px; }
     .further_reading h3 {
       text-align: center;
@@ -1648,7 +1648,7 @@ section {
     padding-top: 30px; }
     .contact a {
       color: #349bcc;
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       font-size: 20px; }
 
   .footer {
@@ -1663,13 +1663,15 @@ section {
     padding-bottom: 65px;
     padding-left: 17px;
     color: #349bcc;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     width: 1300px; }
 
   .coming-soon {
     text-align: center;
-    padding-top: 40px; }
+    padding-top: 130px;
+    padding-bottom: 130px;
+    font-size: 1.333em; }
 
   .nav-bar {
     float: left;
@@ -1707,7 +1709,7 @@ section {
     nav button {
       visibility: hidden; }
     nav ul {
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       width: 100%;
       text-align: center;
       padding-left: 0px;
@@ -1745,7 +1747,7 @@ section {
   nav {
     float: right; }
     nav ul {
-      font-family: Josefin Sans;
+      font-family: Garamond, "Times New Roman", Times, serif;
       font-size: 14px;
       height: 1em;
       width: 100%;
