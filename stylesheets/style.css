@@ -861,12 +861,34 @@ section {
 
   .paul-section {
     text-align: center;
-    padding-top: 50px; }
+    padding-top: 50px;
+    /*padding-left: 40px;*/ }
     .paul-section .pic {
+      margin-top: 50px;
+      margin-left: 39%;
       text-align: center;
-      padding-top: 25px;
-      width: 13%;
-      height: 250px; }
+      padding-top: 50px;
+      width: 20.5%;
+      height: 360px; }
+    .paul-section h3 {
+      font-family: Josefin Sans;
+      font-size: 1em;
+      padding-left: 12.3%; }
+
+  .further_reading {
+    position: relative;
+    padding-top: 1650px;
+    padding-left: 45px; }
+    .further_reading h3 {
+      text-align: center;
+      margin-left: -60px;
+      color: #349bcc;
+      font-size: 1.77689em; }
+    .further_reading h4 {
+      text-align: center;
+      margin-left: -60px;
+      color: #349bcc;
+      font-size: 1.333em; }
 
   .newsart_1 {
     text-align: left;
@@ -1637,12 +1659,13 @@ section {
       width: 500px; }
 
   .quotes p {
-    padding-top: 150px;
+    padding-top: 126px;
     padding-bottom: 65px;
     padding-left: 17px;
     color: #349bcc;
     font-size: 25px;
-    font-weight: 900; }
+    font-weight: 900;
+    width: 1300px; }
 
   .coming-soon {
     text-align: center;
