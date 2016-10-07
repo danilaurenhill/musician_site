@@ -684,10 +684,33 @@
   }
 }
 
+.link_0 {
+  position: relative;
+  display: inline-block;
+  top: -25px;
+  left: 75px;
+  width: 30%;
+  padding-bottom: 40px;
+  .pic3 {
+    width: 250px;
+    height: 260px;
+    /*    width: 201px;
+    height: 201px;
+    padding-left: 106px;*/
+
+  }
+  h3 {
+    width: 340px;
+    padding-left: 110px;
+  }
+  h3:hover {
+    color: $green;
+  }
+}
 .link_1 {
   position: relative;
   display: inline-block;
-  top: 0px;
+  top: 20px;
   left: 50px;
   width: 30%;
   padding-bottom: 40px;
@@ -725,7 +748,7 @@
 .link_3 {
   position: relative;
   display: inline-block;
-  top: 0px;
+  top: 20px;
   left: 80px;
   width: 30%;
   padding-bottom: 40px;
@@ -783,7 +806,7 @@
 .link_6 {
   position: relative;
   display: inline-block;
-  top: 40px;
+  top: 80px;
   left: 80px;
   width: 30%;
   padding-bottom: 40px;
@@ -840,7 +863,7 @@
 .link_9 {
   position: relative;
   display: inline-block;
-  top: 40px;
+  top: 60px;
   left: 80px;
   width: 30%;
   padding-bottom: 40px;
@@ -916,7 +939,7 @@
 
 .link_13 {
   position: relative;
-  top: 80px;
+  top: -269px;
   left: 35%;
   width: 30%;
   padding-bottom: 40px;
