@@ -1,20 +1,44 @@
 .hero {
   width: 100%;
-  height: 100%;
+  height: 120%;
   background-size: cover;
   background-position: center center; 
-  margin-top: 60px;
+  margin-top: 60px;background-color: black;
+  opacity: 0.8;
   .hero-blurb {
     text-align: center;
     h1 {
-      padding-top: 90px;
+      padding-top: 50px;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: block;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $green;
+      }
+    }
+    h2 {
+      margin-top: -30px;
+      color: white;
+      &:after {
+        content: ' ';
+        max-width: initial;
+        display: none;
+        height: 3px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
   p {
     text-align: center;
     width: 1000px;
     margin-left: -92px;
-    font-size: modular-scale(2);
+    font-size: 19px;
     font-weight: 300;
   }
 }
@@ -942,7 +966,7 @@
   top: -269px;
   left: 35%;
   width: 30%;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   .pic3 {
     width: 250px;
     height: 250px;
@@ -976,7 +1000,7 @@
 }
 .quotes {
   p {
-    padding-top: 126px;
+    padding-top: 86px;
     padding-bottom: 65px;
     padding-left: 17px;
     color: $green;

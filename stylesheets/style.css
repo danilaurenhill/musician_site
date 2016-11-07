@@ -805,19 +805,41 @@ section {
 @media screen and (min-width: 750px) {
   .hero {
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-size: cover;
     background-position: center center;
-    margin-top: 60px; }
+    margin-top: 60px;
+    background-color: black;
+    opacity: 0.8; }
     .hero .hero-blurb {
       text-align: center; }
       .hero .hero-blurb h1 {
-        padding-top: 90px; }
+        padding-top: 50px; }
+        .hero .hero-blurb h1:after {
+          content: ' ';
+          max-width: initial;
+          display: block;
+          height: 3px;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #349bcc; }
+      .hero .hero-blurb h2 {
+        margin-top: -30px;
+        color: white; }
+        .hero .hero-blurb h2:after {
+          content: ' ';
+          max-width: initial;
+          display: none;
+          height: 3px;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto; }
     .hero p {
       text-align: center;
       width: 1000px;
       margin-left: -92px;
-      font-size: 1.77689em;
+      font-size: 19px;
       font-weight: 300; }
 
   .bio-pic {
@@ -1660,7 +1682,7 @@ section {
     top: -269px;
     left: 35%;
     width: 30%;
-    padding-bottom: 40px; }
+    padding-bottom: 0px; }
     .link_13 .pic3 {
       width: 250px;
       height: 250px; }
@@ -1687,7 +1709,7 @@ section {
       width: 500px; }
 
   .quotes p {
-    padding-top: 126px;
+    padding-top: 86px;
     padding-bottom: 65px;
     padding-left: 17px;
     color: #349bcc;
@@ -1707,7 +1729,7 @@ section {
     margin-right: 2.35765%;
     width: 100%;
     z-index: 9;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     top: 0px;
     left: 0px;
     position: fixed; }
