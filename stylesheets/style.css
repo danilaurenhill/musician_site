@@ -627,8 +627,11 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_0 .pic4 {
-    width: 200px;
-    height: 200px; }
+    padding-top: 20px;
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_0 h3:hover {
     color: #349bcc; }
 
@@ -636,8 +639,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_1 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_1 h3:hover {
     color: #349bcc; }
 
@@ -645,8 +650,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_2 .pic4 {
-    width: 200px;
-    height: 190px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_2 h3:hover {
     color: #349bcc; }
 
@@ -654,8 +661,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_3 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_3 h3:hover {
     color: #349bcc; }
 
@@ -663,8 +672,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_4 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_4 h3:hover {
     color: #349bcc; }
 
@@ -672,8 +683,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_5 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_5 h3:hover {
     color: #349bcc; }
 
@@ -681,8 +694,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_6 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_6 h3:hover {
     color: #349bcc; }
 
@@ -690,8 +705,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_7 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_7 h3:hover {
     color: #349bcc; }
 
@@ -699,8 +716,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_8 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_8 h3:hover {
     color: #349bcc; }
 
@@ -708,8 +727,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_9 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_9 h3:hover {
     color: #349bcc; }
 
@@ -717,8 +738,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_10 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_10 h3:hover {
     color: #349bcc; }
 
@@ -726,8 +749,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_11 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_11 h3:hover {
     color: #349bcc; }
 
@@ -735,8 +760,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_12 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_12 h3:hover {
     color: #349bcc; }
 
@@ -744,8 +771,10 @@ section {
   text-align: center;
   padding-bottom: 40px; }
   .link_13 .pic4 {
-    width: 200px;
-    height: 200px; }
+    width: 180px;
+    height: 180px;
+    border-style: outset;
+    border-color: #C0C0C0; }
   .link_13 h3:hover {
     color: #349bcc; }
 
@@ -1746,15 +1775,14 @@ section {
     left: 75px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_0 .pic3 {
-      width: 250px;
-      height: 260px;
-      /*    width: 201px;
-      height: 201px;
-      padding-left: 106px;*/ }
+    .link_0 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_0 h3 {
-      width: 340px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_0 h3:hover {
       color: #349bcc; }
 
@@ -1765,12 +1793,14 @@ section {
     left: 50px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_1 .pic3 {
-      width: 250px;
-      height: 160px; }
+    .link_1 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_1 h3 {
-      width: 340px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_1 h3:hover {
       color: #349bcc; }
 
@@ -1781,28 +1811,32 @@ section {
     left: 65px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_2 .pic3 {
-      width: 250px;
-      height: 160px; }
+    .link_2 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_2 h3 {
-      width: 300px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_2 h3:hover {
       color: #349bcc; }
 
   .link_3 {
     position: relative;
     display: inline-block;
-    top: 20px;
+    top: 0px;
     left: 80px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_3 .pic3 {
-      width: 250px;
-      height: 250px; }
+    .link_3 .pic4 {
+      width: 239px;
+      height: 155px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_3 h3 {
-      width: 300px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_3 h3:hover {
       color: #349bcc; }
 
@@ -1813,12 +1847,14 @@ section {
     left: 50px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_4 .pic3 {
+    .link_4 .pic4 {
       width: 250px;
+      border-style: outset;
+      border-color: #C0C0C0;
       height: 160px; }
     .link_4 h3 {
-      width: 340px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_4 h3:hover {
       color: #349bcc; }
 
@@ -1829,106 +1865,122 @@ section {
     left: 65px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_5 .pic3 {
+    .link_5 .pic4 {
       width: 250px;
+      border-style: outset;
+      border-color: #C0C0C0;
       height: 160px; }
     .link_5 h3 {
-      width: 300px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_5 h3:hover {
       color: #349bcc; }
 
   .link_6 {
     position: relative;
     display: inline-block;
-    top: 80px;
+    top: 40px;
     left: 80px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_6 .pic3 {
-      width: 250px;
-      height: 250px; }
+    .link_6 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_6 h3 {
-      width: 300px;
-      padding-left: 110px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_6 h3:hover {
       color: #349bcc; }
 
   .link_7 {
     position: relative;
     display: inline-block;
-    top: 40px;
+    top: 0px;
     left: 50px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_7 .pic3 {
-      width: 250px; }
+    .link_7 .pic4 {
+      width: 249px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_7 h3 {
-      width: 310px;
-      padding-left: 120px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_7 h3:hover {
       color: #349bcc; }
 
   .link_8 {
     position: relative;
     display: inline-block;
-    top: 40px;
+    top: 0px;
     left: 65px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_8 .pic3 {
+    .link_8 .pic4 {
       width: 250px;
+      border-style: outset;
+      border-color: #C0C0C0;
       height: 160px; }
     .link_8 h3 {
-      width: 330px;
-      padding-left: 95px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_8 h3:hover {
       color: #349bcc; }
 
   .link_9 {
     position: relative;
     display: inline-block;
-    top: 60px;
+    top: 50px;
     left: 80px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_9 .pic3 {
-      width: 250px;
-      height: 250px; }
+    .link_9 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_9 h3 {
-      width: 310px;
-      padding-left: 115px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_9 h3:hover {
       color: #349bcc; }
 
   .link_10 {
     position: relative;
     display: inline-block;
-    top: 60px;
+    top: 30px;
     left: 50px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_10 .pic3 {
-      width: 250px; }
+    .link_10 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_10 h3 {
-      width: 310px;
-      padding-left: 120px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_10 h3:hover {
       color: #349bcc; }
 
   .link_11 {
     position: relative;
     display: inline-block;
-    top: 40px;
+    top: 30px;
     left: 65px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_11 .pic3 {
-      width: 250px;
-      height: 160px; }
+    .link_11 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_11 h3 {
-      width: 330px;
-      padding-left: 95px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_11 h3:hover {
       color: #349bcc; }
 
@@ -1939,27 +1991,31 @@ section {
     left: 80px;
     width: 30%;
     padding-bottom: 40px; }
-    .link_12 .pic3 {
-      width: 250px;
-      height: 250px; }
+    .link_12 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_12 h3 {
-      width: 310px;
-      padding-left: 115px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_12 h3:hover {
       color: #349bcc; }
 
   .link_13 {
     position: relative;
-    top: -269px;
-    left: 35%;
+    top: -215px;
+    left: 34%;
     width: 30%;
     padding-bottom: 0px; }
-    .link_13 .pic3 {
-      width: 250px;
-      height: 250px; }
+    .link_13 .pic4 {
+      width: 239px;
+      height: 165px;
+      border-style: outset;
+      border-color: #C0C0C0; }
     .link_13 h3 {
-      width: 310px;
-      padding-left: 115px; }
+      width: 80%;
+      padding-left: 20%; }
     .link_13 h3:hover {
       color: #349bcc; }
 
