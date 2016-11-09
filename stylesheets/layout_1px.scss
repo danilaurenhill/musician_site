@@ -678,9 +678,18 @@
   }
 }
 .contact {
-  text-align: center;
-  padding-bottom: 40px;
+  text-align: center;  
   padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  h3 {
+    color: black;
+    font-family: $font;
+    font-size: 25px;
+    &:hover {
+      color: $green;
+    }
+  }
 }
 .footer {
   h3 {

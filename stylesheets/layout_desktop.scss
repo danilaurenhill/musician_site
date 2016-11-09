@@ -1023,12 +1023,17 @@
 
 .contact {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 30px;
-  a {
-    color: $green;
+  h3 {
+    margin-right: 80px;
+    margin-left: 80px;
+    color: black;
     font-family: $font;
-    font-size: 20px;
+    font-size: 25px;
+    &:hover {
+      color: $green;
+    }
   }
 }
 .footer {
