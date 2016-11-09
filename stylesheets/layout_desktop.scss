@@ -136,7 +136,6 @@
 .newsart_1 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic1 {
     padding-top: 20px;
     padding-left: 10px;
@@ -156,7 +155,7 @@
   h4 {
     text-align: left;
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -179,7 +178,6 @@
 .newsart_2 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic2 {
     padding-top: 20px;
     padding-left: 10px;
@@ -198,7 +196,7 @@
   }
    h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -221,7 +219,6 @@
 .newsart_3 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic3 {
     padding-top: 20px;
     padding-left: 10px;
@@ -240,7 +237,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -263,7 +260,6 @@
 .newsart_4 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic4 {
     padding-top: 20px;
     padding-left: 10px;
@@ -282,7 +278,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -305,7 +301,6 @@
 .newsart_5 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic5 {
     padding-top: 20px;
     padding-left: 10px;
@@ -324,7 +319,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -347,7 +342,6 @@
 .newsart_6 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic6 {
     padding-top: 20px;
     padding-left: 10px;
@@ -366,7 +360,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -389,7 +383,6 @@
 .newsart_7 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic7 {
     padding-top: 20px;
     padding-left: 10px;
@@ -408,7 +401,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -431,7 +424,6 @@
 .newsart_8 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic8 {
     padding-top: 20px;
     padding-left: 10px;
@@ -450,7 +442,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -473,7 +465,6 @@
 .newsart_9 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic9 {
     padding-top: 20px;
     padding-left: 10px;
@@ -492,7 +483,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -515,7 +506,6 @@
 .newsart_10 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic10 {
     padding-top: 20px;
     padding-left: 10px;
@@ -534,7 +524,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -557,7 +547,6 @@
 .newsart_11 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic11 {
     padding-top: 20px;
     padding-left: 10px;
@@ -576,7 +565,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -598,14 +587,14 @@
 }
 .newsart_12 {
   text-align: left;
-  padding-left: 25px;
-  padding-bottom: 20px;
+  padding-left: 30px;
   .pic12 {
     padding-top: 20px;
-    padding-left: 10px;
-    width: 15%;
-    height: 27%;
+    padding-left: 8px;
+    width: 14.7%;
+    height: 26.7%;
     float: left;
+    border-style: ridge;
   }
   h3 {
     margin-top: -21px;
@@ -618,7 +607,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -641,7 +630,6 @@
 .newsart_13 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic13 {
     padding-top: 20px;
     padding-left: 10px;
@@ -660,7 +648,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;
@@ -683,7 +671,6 @@
 .newsart_14 {
   text-align: left;
   padding-left: 25px;
-  padding-bottom: 20px;
   .pic14 {
     padding-top: 20px;
     padding-left: 10px;
@@ -702,7 +689,7 @@
   }
   h4 {
     @include clearfix;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: modular-scale(2);
     font-weight: 400;
     padding-left: 25px;

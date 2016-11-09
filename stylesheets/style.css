@@ -539,7 +539,8 @@ section {
   .newsart_12 .pic12 {
     padding-top: 25px;
     width: 60%;
-    height: 25%; }
+    height: 25%;
+    border-style: ridge; }
   .newsart_12 h3 {
     width: 98%;
     float: right;
@@ -1222,8 +1223,7 @@ section {
 
   .newsart_1 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_1 .pic1 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1240,7 +1240,7 @@ section {
       text-align: justify; }
     .newsart_1 h4 {
       text-align: left;
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1263,8 +1263,7 @@ section {
 
   .newsart_2 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_2 .pic2 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1280,7 +1279,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_2 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1303,8 +1302,7 @@ section {
 
   .newsart_3 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_3 .pic3 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1320,7 +1318,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_3 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1343,8 +1341,7 @@ section {
 
   .newsart_4 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_4 .pic4 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1360,7 +1357,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_4 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1383,8 +1380,7 @@ section {
 
   .newsart_5 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_5 .pic5 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1400,7 +1396,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_5 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1423,8 +1419,7 @@ section {
 
   .newsart_6 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_6 .pic6 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1440,7 +1435,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_6 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1463,8 +1458,7 @@ section {
 
   .newsart_7 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_7 .pic7 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1480,7 +1474,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_7 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1503,8 +1497,7 @@ section {
 
   .newsart_8 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_8 .pic8 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1520,7 +1513,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_8 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1543,8 +1536,7 @@ section {
 
   .newsart_9 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_9 .pic9 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1560,7 +1552,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_9 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1583,8 +1575,7 @@ section {
 
   .newsart_10 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_10 .pic10 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1600,7 +1591,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_10 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1623,8 +1614,7 @@ section {
 
   .newsart_11 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_11 .pic11 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1640,7 +1630,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_11 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1663,14 +1653,14 @@ section {
 
   .newsart_12 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 30px; }
     .newsart_12 .pic12 {
       padding-top: 20px;
-      padding-left: 10px;
-      width: 15%;
-      height: 27%;
-      float: left; }
+      padding-left: 8px;
+      width: 14.7%;
+      height: 26.7%;
+      float: left;
+      border-style: ridge; }
     .newsart_12 h3 {
       margin-top: -21px;
       margin-bottom: 15px;
@@ -1680,7 +1670,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_12 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1703,8 +1693,7 @@ section {
 
   .newsart_13 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_13 .pic13 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1720,7 +1709,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_13 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -1743,8 +1732,7 @@ section {
 
   .newsart_14 {
     text-align: left;
-    padding-left: 25px;
-    padding-bottom: 20px; }
+    padding-left: 25px; }
     .newsart_14 .pic14 {
       padding-top: 20px;
       padding-left: 10px;
@@ -1760,7 +1748,7 @@ section {
       float: right;
       text-align: justify; }
     .newsart_14 h4 {
-      margin-top: 20px;
+      margin-top: 40px;
       font-size: 1.77689em;
       font-weight: 400;
       padding-left: 25px;
@@ -2174,62 +2162,47 @@ section {
     font-size: 24px; }
 
   .schedule {
-    padding-left: 130px;
-    padding-right: 130px; }
+    padding-left: 180px;
+    padding-right: 180px; }
     .schedule .sections .top-dates {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%;
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: #349bcc;
+      border-radius: 10px; }
       .schedule .sections .top-dates:last-child {
         margin-right: 0; }
-      .schedule .sections .top-dates:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #349bcc; }
     .schedule .sections .top-location {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%;
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: #349bcc;
+      border-radius: 10px; }
       .schedule .sections .top-location:last-child {
         margin-right: 0; }
-      .schedule .sections .top-location:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #349bcc; }
     .schedule .sections .top-venue {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%;
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: #349bcc;
+      border-radius: 10px; }
       .schedule .sections .top-venue:last-child {
         margin-right: 0; }
-      .schedule .sections .top-venue:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #349bcc; }
     .schedule .dates {
       float: left;
       display: block;
@@ -2271,6 +2244,8 @@ section {
     .ace img {
       padding-top: 150px; }
     .ace h3 {
-      text-align: justify; } }
+      text-align: justify; }
+    .ace h4 {
+      color: #349bcc; } }
 
 /*# sourceMappingURL=style.css.map */

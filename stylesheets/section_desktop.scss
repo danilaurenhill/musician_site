@@ -13,53 +13,35 @@
   }
 }
 .schedule {
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 180px;
+    padding-right: 180px;
   .sections {
     .top-dates {
       @include span-columns(4 of 12);
       font-size: 24px;
       text-align: center;
-      &:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: $green;
-      }
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: $green;
+      border-radius: 10px;
     }
     .top-location {
       @include span-columns(4 of 12);
       font-size: 24px;
       text-align: center;
-      &:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: $green;
-      }
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: $green;
+      border-radius: 10px;
     }
     .top-venue {
       @include span-columns(4 of 12);
       font-size: 24px;
       text-align: center;
-      &:after {
-        content: ' ';
-        max-width: initial;
-        display: block;
-        height: 3px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: $green;
-      }
+      border-bottom: 4px double;
+      line-height: 1em;
+      border-color: $green;
+      border-radius: 10px;
     }
   }
   .dates {
@@ -95,6 +77,9 @@
   }
   h3 {
     text-align: justify;
+  }
+  h4 {
+    color: $green;
   }
 }
 
