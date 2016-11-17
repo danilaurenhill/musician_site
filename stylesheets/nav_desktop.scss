@@ -1,4 +1,4 @@
-.nav-bar {
+/*.nav-bar {
   @include span-columns(12);
   @include clearfix;
   .logo {
@@ -67,7 +67,7 @@ nav {
     height: 1em;
     width: 100%;
     /* padding: 15px 0px;*/
-  }
+/*  }
   li {
     padding: 0px 10px;
     display: inline;
@@ -79,3 +79,97 @@ nav {
     font-weight: 100;
   }
 }
+*/
+
+
+.nav-bar {
+  @include span-columns(12);
+  .logo {
+    width: 100%;
+    h1 {
+      margin-top: -50px;
+      color: $green;
+      font-size: 20px;
+      margin-right: 0px;
+      font-weight: 900;
+    }
+  }
+
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0px;
+  padding: 5.5px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left; 
+  /*border-right: 2px solid $green;
+  &:first-child {
+    border-right: none; 
+  }
+   &:last-of-type .nav {
+    border-right: none; 
+  }*/
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 14;
+}
+ul.topnav li p {
+  display: inline-block;
+  color: $green;
+  text-align: center;
+  font-size: 24px;
+  margin: -3px;
+  padding-right: 500px;
+  padding: -31px 16px;
+  text-decoration: none;
+  z-index: 14;
+}
+
+ul.topnav li a:hover {
+  background-color: #555;
+  &:first-child {
+    background-color: #333;
+  }
+}
+
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:980px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:980px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+}
+
