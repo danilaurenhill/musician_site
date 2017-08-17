@@ -11,21 +11,28 @@
   </head>
   <body>
     <header>
-      <div class="nav-bar">
-        <ul class="topnav" id="myTopnav">
-          <li><a href="home.html"><p>The Official Site of Duke Ellington</p></a></li>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="bio.html">Bio</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="orch.html">Orchestra</a></li>
-          <li><a href="links.html">Links</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li class="icon">
-          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-          </li>
-        </ul>
+      <div class="topnav" id="myTopnav">
+        <p><a href="home.html">The Official Site of Duke Ellington</a></p>
+        <a href="home.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="news.html">News</a>
+        <a href="orch.html">Orchestra</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html">Shop</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
+
+      <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+      </script>
     </header>
     <section class="orch"><br><br><br>
       <h2>The Duke Ellington Orchestra</h2>
